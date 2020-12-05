@@ -25,7 +25,6 @@ export default defineComponent({
     onMounted(() => {
       setTodoList()
     })
-    // console.log(store.state, 222)
     return {
       todoList: computed(() => store.state.list)
     }
